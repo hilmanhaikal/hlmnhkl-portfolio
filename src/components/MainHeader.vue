@@ -1,9 +1,9 @@
 <template>
   <header class="shadow-md py-4 bg-gray-900 text-white sticky top-0 z-50">
-    <div class="container mx-auto flex flex-wrap items-center justify-between">
+    <div class="container mx-auto flex items-center justify-between relative">
       <!-- Navbar icon on the left -->
-      <div class="lg:hidden order-1">
-        <button @click="isMenuOpen = !isMenuOpen" class="focus:outline-none pl-2">
+      <div class="lg:hidden">
+        <button @click="toggleMenu" class="focus:outline-none pl-2">
           <svg
             :class="{ 'transform rotate-90': isMenuOpen }"
             class="w-8 h-8 transition-transform duration-300 ease-in-out"
@@ -18,10 +18,10 @@
       </div>
 
       <!-- "hlmnhkl" centered in the middle -->
-      <h1 class="order-2 w-full text-center text-2xl font-semibold lg:w-auto lg:pl-0">hlmnhkl</h1>
+      <h1 class="text-center text-2xl font-semibold absolute left-0 right-0 m-auto lg:static">hlmnhkl</h1>
       
-      <!-- Empty div to ensure correct alignment -->
-      <div class="order-3 lg:hidden"></div>
+      <!-- Empty div for spacing alignment -->
+      <div class="lg:hidden"></div>
 
       <!-- Desktop navbar (optional) -->
       <nav class="hidden lg:flex lg:items-center lg:space-x-8">
@@ -33,22 +33,25 @@
       </nav>
     </div>
 
+    <!-- Overlay that closes the sidebar when clicked -->
+    <div v-if="isMenuOpen" @click="closeMenu" class="fixed inset-0 bg-black bg-opacity-50 z-40 lg:hidden"></div>
+
     <!-- Side navbar for mobile -->
     <nav
       :class="{
         'translate-x-0': isMenuOpen,
         '-translate-x-full': !isMenuOpen
       }"
-      class="fixed top-0 left-0 h-full bg-gray-900 w-64 transition-transform transform lg:hidden z-40"
+      class="fixed top-0 left-0 h-full bg-gray-900 w-64 transition-transform transform lg:hidden z-50"
     >
       <div class="px-6 py-4 bg-gray-800">
         <h1 class="text-2xl font-semibold text-white">hlmnhkl</h1>
       </div>
 
       <ul class="mt-6 flex flex-col space-y-6 pl-6">
-        <li><a href="#hero" @click="isMenuOpen = false" class="hover:text-indigo-400 transition-colors duration-200 text-lg">Home</a></li>
-        <li><a href="#projects" @click="isMenuOpen = false" class="hover:text-indigo-400 transition-colors duration-200 text-lg">Projects</a></li>
-        <li><a href="#about" @click="isMenuOpen = false" class="hover:text-indigo-400 transition-colors duration-200 text-lg">About</a></li>
+        <li><a href="#hero" @click="closeMenu" class="hover:text-indigo-400 transition-colors duration-200 text-lg">Home</a></li>
+        <li><a href="#projects" @click="closeMenu" class="hover:text-indigo-400 transition-colors duration-200 text-lg">Projects</a></li>
+        <li><a href="#about" @click="closeMenu" class="hover:text-indigo-400 transition-colors duration-200 text-lg">About</a></li>
       </ul>
     </nav>
   </header>
@@ -61,6 +64,14 @@ export default {
     return {
       isMenuOpen: false,
     };
+  },
+  methods: {
+    toggleMenu() {
+      this.isMenuOpen = !this.isMenuOpen;
+    },
+    closeMenu() {
+      this.isMenuOpen = false;
+    },
   },
 };
 </script>
