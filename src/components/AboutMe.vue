@@ -1,19 +1,20 @@
 <template>
-  <section id="about" class="py-16 px-4 bg-gray-800">
-    <div class="container mx-auto text-white">
+  <section id="about" class="py-16 px-4">
+    <div class="container mx-auto text-gray-950">
       <h2 class="text-4xl font-bold text-center">About Me</h2>
       <p class="mt-6 text-lg text-center max-w-3xl mx-auto leading-relaxed">
-        I am a passionate software and mobile developer with experience in both web and mobile technologies. My expertise includes creating intuitive and functional applications using modern frameworks like Vue.js for web development and Flutter for mobile development. While my background includes some web development and design, my focus has been on developing practical solutions that meet user needs and solve real-world problems.
-      </p>
-      <p class="mt-6 text-lg text-center max-w-3xl mx-auto leading-relaxed">
-        I enjoy tackling complex challenges and turning ideas into effective, user-friendly applications. My approach is centered around delivering high-quality solutions and working collaboratively within Agile teams to ensure project success and client satisfaction.
+        A potion-brewing code wizard of Computer Science, with a foundation as solid as Hogwarts'
+        walls in software development and mobile app development. Passionate in creating tech
+        solutions with problem-solving skills, creative thinking, and committed to continuous learning
+        and growth. Highly motivated individual seeking the opportunities to apply technical expertise
+        in technology with a dynamic and growth-oriented environment.
       </p>
       <div class="mt-12 text-center">
         <h3 class="text-3xl font-semibold">Skills</h3>
-        <ul class="list-none mt-4 inline-block text-left space-y-2">
-          <li class="text-lg">JavaScript, Vue.js, Python, Flutter, Dart</li>
-          <li class="text-lg">HTML, CSS, Tailwind CSS</li>
-          <li class="text-lg">Mobile Development, Agile, Team Player</li>
+        <ul class="list-none mt-4 inline-block max-w-3xl text-left space-y-2">
+          <li class="text-lg">JavaScript, Vue.js, Python, Flutter, Dart, Ruby on Rails, HTML, CSS, Tailwind CSS, Google Firebase, Github, JSON</li>
+          <li class="text-lg">Mobile Development, Agile, Problem Solving, Mobile Development, Software Development, Creative Thinking,
+            Team Player, Research and Analysis, Team Collaboration, Innovative Solutions.</li>
         </ul>
       </div>
       <div class="mt-12 text-center">
@@ -44,16 +45,8 @@ export default {
 
 <style scoped>
 section {
+  background-color: rgb(209 213 219);
   padding: 4rem 0;
-}
-h2 {
-  color: #ffffff;
-}
-p {
-  color: #e5e7eb;
-}
-ul li {
-  color: #d1d5db;
 }
 a {
   color: inherit;

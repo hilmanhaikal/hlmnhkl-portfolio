@@ -1,7 +1,7 @@
 <template>
   <header class="shadow-sm py-4 bg-gray-900">
     <div class="container mx-auto flex flex-wrap items-center justify-between">
-      <h1 class="pl-2 tracking-wide text-2xl font-semibold text-white">hlmnhkl</h1>
+      <h1 class="pl-2 tracking-wide text-2xl font-semibold text-gray-100">hlmnhkl</h1>
       <!-- Modern Burger Icon (visible on mobile) -->
       <div class="lg:hidden">
         <button @click="isMenuOpen = !isMenuOpen" class="text-white focus:outline-none pr-1">
@@ -23,9 +23,9 @@
         class="w-full lg:w-auto lg:flex lg:items-center transition-all duration-300 ease-in-out"
       >
         <ul class="flex flex-col lg:flex-row lg:space-x-8 mt-4 lg:mt-0">
-          <li><a href="#hero" class="hover:text-indigo-400 transition-colors duration-200 text-lg block lg:inline-block mt-2 lg:mt-0">Home</a></li>
-          <li><a href="#projects" class="hover:text-indigo-400 transition-colors duration-200 text-lg block lg:inline-block mt-2 lg:mt-0">Projects</a></li>
-          <li><a href="#about" class="hover:text-indigo-400 transition-colors duration-200 text-lg block lg:inline-block mt-2 lg:mt-0">About</a></li>
+          <li><a href="#hero" class="hover:text-gray-500 transition-colors duration-200 text-lg block lg:inline-block mt-2 lg:mt-0 pl-2">Home</a></li>
+          <li><a href="#projects" class="hover:text-gray-500 transition-colors duration-200 text-lg block lg:inline-block mt-2 lg:mt-0 pl-2">Projects</a></li>
+          <li><a href="#about" class="hover:text-gray-500 transition-colors duration-200 text-lg block lg:inline-block mt-2 lg:mt-0 pl-2">About</a></li>
         </ul>
       </nav>
     </div>
@@ -45,12 +45,12 @@ export default {
 
 <style scoped>
 header {
-  background-color: rgb(17 24 39);
+  background-color: rgb(3 7 18);
 }
 a {
   text-decoration: none;
 }
 li {
-  color: #ffffff;
+  color: rgb(243 244 246);
 }
 </style>
