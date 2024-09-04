@@ -35,7 +35,9 @@ html {
 }
 
 body {
-  font-family: 'Helvetica Neue', Arial, sans-serif;
+  font-family: "Karla", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
   margin: 0;
   padding: 0;
 }
