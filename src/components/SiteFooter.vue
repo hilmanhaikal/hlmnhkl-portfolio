@@ -2,9 +2,11 @@
   <footer class="text-gray-100 text-center py-4">
     <div class="container mx-auto text-center">
       <p>&copy; 2024 Hilman Haikal. All rights reserved.</p>
-      <div class="space-x-4 pt-1">
-          <a href="https://linkedin.com/in/hilmanhaikal" class="hover:text-gray-500 transition-colors duration-200">linkedin</a>
-          <a href="https://github.com/hilmanhaikal" class="hover:text-gray-500 transition-colors duration-200">Github</a>
+      <div class="space-x-2 pt-2">
+        <i class="fa fa-linkedin-square" style="font-size:24px"></i>
+        <a href="https://linkedin.com/in/hilmanhaikal" class="hover:text-gray-500 transition-colors duration-200 pr-2">linkedin</a>
+        <i class="fa fa-github-square" style="font-size:24px"></i>
+        <a href="https://github.com/hilmanhaikal" class="hover:text-gray-500 transition-colors duration-200 pr-2">Github</a>
       </div>
     </div>
   </footer>
