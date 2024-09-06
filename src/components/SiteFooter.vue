@@ -7,6 +7,8 @@
         <a href="https://linkedin.com/in/hilmanhaikal" class="hover:text-gray-500 transition-colors duration-200 pr-2">linkedin</a>
         <i class="fa fa-github-square" style="font-size:24px"></i>
         <a href="https://github.com/hilmanhaikal" class="hover:text-gray-500 transition-colors duration-200 pr-2">Github</a>
+        <i class="fa fa-envelope-square" style="font-size:24px"></i>
+        <a href="mailto: hilmanhaikal7@gmail.com" class="hover:text-gray-500 transition-colors duration-200 pr-2">Hilman Haikal</a>
       </div>
     </div>
   </footer>
