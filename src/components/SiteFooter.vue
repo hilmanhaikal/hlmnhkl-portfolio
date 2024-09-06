@@ -1,7 +1,11 @@
 <template>
-  <footer class="outline outline-1 outline-offset-1 outline-gray-300 text-white text-center py-4">
+  <footer class="text-gray-100 text-center py-4">
     <div class="container mx-auto text-center">
       <p>&copy; 2024 Hilman Haikal. All rights reserved.</p>
+      <div class="space-x-4 pt-1">
+          <a href="https://linkedin.com/in/hilmanhaikal" class="hover:text-gray-500 transition-colors duration-200">linkedin</a>
+          <a href="https://github.com/hilmanhaikal" class="hover:text-gray-500 transition-colors duration-200">Github</a>
+      </div>
     </div>
   </footer>
 </template>
