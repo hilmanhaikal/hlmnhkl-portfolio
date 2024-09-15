@@ -16,7 +16,7 @@
             The MindGuard project is a web-based mental health assessment tool using machine learning models for PHQ-9 depression severity analysis and sentiment analysis, built with Python, Flask, and supporting libraries like nltk, scikit-learn, and Seaborn.
           </p>
           <a
-            href="https://hlmnhkl-mindguard.netlify.app"
+            href="https://github.com/hilmanhaikal/MindGuard"
             class="hover:bg-gray-500 hover:text-gray-950 transition-colors duration-200 mt-4 inline-block bg-gray-800 text-white py-2 px-4 rounded-lg self-start"
             target="_blank"
             rel="noopener noreferrer"
