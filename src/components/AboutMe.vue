@@ -3,14 +3,11 @@
     <div class="container mx-auto text-gray-950">
       <h2 class="text-4xl font-bold text-center">About Me</h2>
       <p class="mt-6 text-lg text-center max-w-3xl mx-auto leading-relaxed">
-        In the enchanted realm of Computer Science, I am a potion-brewing code wizard, 
-        blending spells of software and mobile app development with the precision of a master alchemist. 
-        My foundation is as steadfast as Hogwarts’ ancient walls, built upon a deep-seated passion for crafting magical tech solutions. 
-        With a wand in hand and a heart full of creative curiosity, I approach every challenge with the problem-solving prowess of a true Gryffindor.
-      </p>
-      <p class="mt-6 text-lg text-center max-w-3xl mx-auto leading-relaxed">
-        Driven by an unyielding quest for knowledge and a commitment to growth, 
-        I seek opportunities in dynamic and growth-oriented environments where I can channel my technical expertise and bring a bit of wizardry to the world of technology.
+        A potion-brewing code wizard of Computer Science, with a foundation as solid as Hogwarts'
+        walls in software development and mobile app development. Passionate in creating tech
+        solutions with problem-solving skills, creative thinking, and committed to continuous learning
+        and growth. Highly motivated individual seeking the opportunities to apply technical expertise
+        in technology with a dynamic and growth-oriented environment.
       </p>
       <div class="mt-10 text-center">
         <h3 class="text-3xl font-semibold">Skills</h3>
