@@ -12,8 +12,8 @@
       <div class="mt-10 text-center">
         <h3 class="text-3xl font-semibold">Skills</h3>
         <ul class="list-none mt-4 inline-block max-w-3xl mx-auto leading-relaxed text-center space-y-2">
-          <li class="text-lg">JavaScript, Vue.js, Python, Flutter, Dart, Ruby on Rails, HTML, CSS, Tailwind CSS, Google Firebase, Github, JSON</li>
-          <li class="text-lg">Mobile Development, Agile, Problem Solving, Software Development, Creative Thinking,
+          <li class="text-lg">HTML, CSS, Tailwind CSS, JavaScript, Vue.js, Python, Flutter, Dart, Google Firebase, Github, JSON</li>
+          <li class="text-lg">Mobile Development, Software Development, Front End Development, Agile Methodology, Problem Solving, Creative Thinking,
             Team Player, Research and Analysis, Team Collaboration, Innovative Solutions.</li>
         </ul>
       </div>
