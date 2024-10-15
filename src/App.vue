@@ -4,6 +4,7 @@
     <main>
       <HeroSection />
       <ProjectList />
+      <GraphicList />
       <AboutMe />
     </main>
     <SiteFooter />
@@ -14,6 +15,7 @@
 import MainHeader from './components/MainHeader.vue';
 import HeroSection from './components/HeroSection.vue';
 import ProjectList from './components/ProjectList.vue';
+import GraphicList from './components/GraphicList.vue';
 import AboutMe from './components/AboutMe.vue';
 import SiteFooter from './components/SiteFooter.vue';
 
@@ -23,6 +25,7 @@ export default {
     MainHeader,
     HeroSection,
     ProjectList,
+    GraphicList,
     AboutMe,
     SiteFooter,
   },
