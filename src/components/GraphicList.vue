@@ -13,7 +13,7 @@
               class="block mx-auto w-auto h-auto mt-4 rounded-lg shadow-md"
             />
             <p class="flex-grow mt-2 text-justify">
-                This logo is a family trip logo and it embodies tradition and heritage with its earthy tones and the depiction of a classic stilt house. It tells a story of cultural roots, authentic charm, and timeless design.
+                A family trip logo embodies tradition and heritage with its earthy tones and the depiction of a classic stilt house. It tells a story of cultural roots, authentic charm, and timeless design.
             </p>
             <a
               href="#"
@@ -30,7 +30,7 @@
               class="block mx-auto w-auto h-auto mt-4 rounded-lg shadow-md"
             />
             <p class="flex-grow mt-2 text-justify">
-                "Unlimited Music Records" logo bursts with cosmic energy, embodying the boundless creativity of the brand. The bold design and vibrant color scheme represent our commitment to pushing musical boundaries and exploring uncharted sonic territories.
+                "Unlimited Music Records" logo bursts with cosmic energy, embodying the boundless creativity of the brand.
             </p>
             <a
               href="#"
