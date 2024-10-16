@@ -70,6 +70,28 @@
             rel="noopener noreferrer"
           >View Project</a>
         </div>
+        <div class="flex flex-col p-6 rounded-lg shadow-md bg-gray-100">
+          <h3 class="text-xl font-semibold">Login Page Template</h3>
+          <img
+            src="/images/login.png"
+            alt="LaptopCostEstimation"
+            class="block mx-auto w-auto h-auto mt-4 rounded-lg shadow-md"
+          />
+          <p class="flex-grow mt-2 text-justify">
+            The project is a simple login page template.
+          </p>
+        </div>
+        <div class="flex flex-col p-6 rounded-lg shadow-md bg-gray-100">
+          <h3 class="text-xl font-semibold">E-Commerce Home Page Template</h3>
+          <img
+            src="/images/homepage.png"
+            alt="LaptopCostEstimation"
+            class="block mx-auto w-auto h-auto mt-4 rounded-lg shadow-md"
+          />
+          <p class="flex-grow mt-2 text-justify">
+            This e-commerce homepage template showcases a sleek shoe store design with a hero image of a beige sneaker. The navigation bar includes links to Home, Products, About, and Contact, plus a shopping cart icon. The main section highlights four shoe options, each with an image, name, price, and Add to Cart button for easy shopping.
+          </p>
+        </div>
       </div>
     </div>
   </section>
