@@ -1,7 +1,7 @@
 <template>
   <section id="projects" class="outline outline-1 outline-offset-0 outline-white py-16 px-4">
     <div class="container mx-auto text-gray-950">
-      <h2 class="text-3xl font-bold text-center">Projects</h2>
+      <h2 class="text-3xl font-bold text-center">Web Projects</h2>
       <!-- Update grid classes for responsive layout -->
       <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mt-8">
         <!-- Example Project -->
