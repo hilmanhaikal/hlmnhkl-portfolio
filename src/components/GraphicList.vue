@@ -18,7 +18,7 @@
             <a
               href="#"
               class="hover:bg-gray-500 hover:text-gray-950 transition-colors duration-200 mt-4 inline-block bg-gray-800 text-white py-2 px-4 rounded-lg self-start"
-              @click.prevent="openModal('/images/familytrip-1.png')"
+              @click.prevent="openModal('/images/first_design_logo.jpg')"
             >View Design</a>
 
           </div>
