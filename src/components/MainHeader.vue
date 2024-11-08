@@ -25,6 +25,7 @@
         <ul class="flex flex-col lg:flex-row lg:space-x-8 mt-4 lg:mt-0">
           <li><a href="#hero" class="hover:text-gray-500 transition-colors duration-200 text-lg block lg:inline-block mt-2 lg:mt-0 pl-2">Home</a></li>
           <li><a href="#projects" class="hover:text-gray-500 transition-colors duration-200 text-lg block lg:inline-block mt-2 lg:mt-0 pl-2">Projects</a></li>
+          <li><a href="#graphic-projects" class="hover:text-gray-500 transition-colors duration-200 text-lg block lg:inline-block mt-2 lg:mt-0 pl-2">Graphic Design</a></li>
           <li><a href="#about" class="hover:text-gray-500 transition-colors duration-200 text-lg block lg:inline-block mt-2 lg:mt-0 pl-2">About</a></li>
         </ul>
       </nav>
