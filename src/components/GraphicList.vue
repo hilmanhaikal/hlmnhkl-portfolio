@@ -73,6 +73,23 @@
               @click.prevent="openModal('/images/unidentified-flying-whale-(UFW).png')"
             >View Design</a>
           </div>
+
+          <div class="flex flex-col p-6 rounded-lg shadow-md bg-gray-100">
+            <h3 class="text-xl font-semibold">Poster Design</h3>
+            <img
+              src="/images/blend.png"
+              alt="Poster Design"
+              class="block mx-auto w-auto h-80 mt-4 rounded-lg shadow-md"
+            />
+            <p class="flex-grow mt-2 text-justify">
+              A symbol of freedom and mystery, combining the serenity of the ocean with the infinite skies.
+            </p>
+            <a
+              href="#"
+              class="hover:bg-gray-500 hover:text-gray-950 transition-colors duration-200 mt-4 inline-block bg-gray-800 text-white py-2 px-4 rounded-lg self-start"
+              @click.prevent="openModal('/images/blend.png')"
+            >View Design</a>
+          </div>
         </div>
       </div>
   
