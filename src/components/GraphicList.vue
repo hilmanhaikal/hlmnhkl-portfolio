@@ -82,7 +82,7 @@
               class="block mx-auto w-auto h-80 mt-4 rounded-lg shadow-md"
             />
             <p class="flex-grow mt-2 text-justify">
-              A symbol of freedom and mystery, combining the serenity of the ocean with the infinite skies.
+              A design for architecture poster.
             </p>
             <a
               href="#"
