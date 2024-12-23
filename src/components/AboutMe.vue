@@ -20,14 +20,6 @@
             Team Player, Research and Analysis, Team Collaboration, Innovative Solutions.</li>
         </ul>
       </div>
-      <div class="mt-15 text-center text-gray-100">
-        <a 
-          href="https://drive.google.com/uc?export=download&id=1dEMvmvLgonyQC5728pTw5ZkU7HYNB88R"
-          class="hover:bg-gray-500 hover:text-gray-950 transition-colors duration-200 mt-8 inline-block bg-gray-800 text-white py-2 px-4 rounded-lg"
-        >
-          Hire Me
-        </a>
-      </div>
     </div>
   </section>
 </template>
